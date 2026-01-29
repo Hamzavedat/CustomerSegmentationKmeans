@@ -119,6 +119,23 @@ All plots are saved to the `outputs/figures/` folder:
 | `cluster_visualization.png` | 2D cluster visualization with PCA |
 | `cluster_characteristics.png` | Cluster characteristics comparison |
 
+### 📊 Sample Visualizations
+
+#### RFM Feature Distributions
+![RFM Distributions](https://raw.githubusercontent.com/Hamzavedat/CustomerSegmentationKmeans/main/outputs/figures/rfm_distributions.png)
+
+#### Distribution Comparison (Before/After Log Transformation)
+![Distribution Comparison](https://raw.githubusercontent.com/Hamzavedat/CustomerSegmentationKmeans/main/outputs/figures/distribution_comparison.png)
+
+#### Optimal Cluster Number Analysis
+![Elbow & Silhouette Analysis](https://raw.githubusercontent.com/Hamzavedat/CustomerSegmentationKmeans/main/outputs/figures/elbow_silhouette.png)
+
+#### Customer Segmentation Visualization (PCA)
+![Cluster Visualization](https://raw.githubusercontent.com/Hamzavedat/CustomerSegmentationKmeans/main/outputs/figures/cluster_visualization.png)
+
+#### Cluster Characteristics Comparison
+![Cluster Characteristics](https://raw.githubusercontent.com/Hamzavedat/CustomerSegmentationKmeans/main/outputs/figures/cluster_characteristics.png)
+
 ## 🔬 Methodology
 
 1. **Data Loading**: Combining all Excel sheets
