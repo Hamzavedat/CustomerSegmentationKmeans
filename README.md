@@ -53,8 +53,8 @@ customer-segmentation-kmeans/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/customer-segmentation-kmeans.git
-cd customer-segmentation-kmeans
+git clone https://github.com/Hamzavedat/CustomerSegmentationKmeans.git
+cd CustomerSegmentationKmeans
 ```
 
 ### 2. Download the Dataset
@@ -81,9 +81,35 @@ python main.py
 
 
 
-## 📈 Outputs
+## 📈 Results
 
-When the program runs, the following plots are saved to the `outputs/figures/` folder:
+### Dataset Statistics
+- **Total Transactions:** 1,067,371 records
+- **After Cleaning:** 805,549 valid transactions
+- **Unique Customers:** 5,878 customers
+- **Date Range:** 2009-2010 and 2010-2011
+
+### Clustering Results
+- **Optimal Clusters (k):** 2 (Silhouette Score: 0.4399)
+- **Total Explained Variance (PCA):** 95.14%
+
+### Customer Segments
+
+#### 🔴 Cluster 0: Lost Customers (61.38% - 3,608 customers)
+- **Average Recency:** 295.4 days
+- **Average Frequency:** 2.1 purchases
+- **Average Monetary:** $636.11
+- **Strategy:** Win-back campaigns, special offers, re-engagement programs
+
+#### 🟢 Cluster 1: Champion Customers (38.62% - 2,270 customers)
+- **Average Recency:** 49.2 days
+- **Average Frequency:** 12.9 purchases
+- **Average Monetary:** $6,805.44
+- **Strategy:** VIP programs, early access, exclusive discounts, loyalty rewards
+
+### Visualization Outputs
+
+All plots are saved to the `outputs/figures/` folder:
 
 | Plot | Description |
 |------|-------------|
@@ -117,24 +143,7 @@ When the program runs, the following plots are saved to the `outputs/figures/` f
 
 This project is for educational purposes.
 
-## 👤 Author
-
-**Student ID:** 24501077
-
 ---
 
 ⭐ If you found this project useful, don't forget to give it a star!
-5. **cluster_characteristics.png** - Küme karakteristikleri
-
----
-
-## Pipeline Aşamaları
-
-1. **Veri Yükleme ve Temizleme** (TÜM Excel sayfaları birleştirilir)
-2. **RFM Özellik Mühendisliği**
-3. **Dağılım Analizi ve Log Dönüşümü**
-4. **Z-score Standardizasyonu**
-5. **Elbow ve Silhouette ile Optimal k Belirleme**
-6. **k-Means Final Kümeleme**
-7. **PCA ile Görselleştirme ve İş Analizleri**
 
